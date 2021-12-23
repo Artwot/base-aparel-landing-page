@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <img class="logo-mobile" src="images/logo.svg" alt="logo" />
+    <div class="container">
+      <div class="info-container">
+        <img class="logo" src="images/logo.svg" alt="logo" />
+        <h1 class="title">
+          <span class="title-colored">We're</span> <span> coming</span> soon
+        </h1>
+        <p class="text-info">
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our
+          launch deals.
+        </p>
+        <div class="form-container">
+          <form action="onSumbit" method="post">
+            <input
+              type="email"
+              name="email"
+              class="email-input"
+              placeholder="Email Address"
+            />
+            <img class="error" src="images/icon-error.svg" alt="error" />
+            <button type="submit"><img src="images/icon-arrow.svg" /></button>
+          </form>
+          <p class="error-message">Please provide a valid email</p>
+        </div>
+      </div>
+      <div class="hero-image"></div>
+    </div>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer>
+  </body>
+</html>
